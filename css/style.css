@@ -66,11 +66,11 @@ body{
 }
 .blocinfo{
 	display: flex;
-	align-items: center;
 }
 .blocinfo img{
 	width: 50px;
 	height: 45px;
+	margin-top: 20px;
 	border-radius: 5px;
 	border: 1px solid lightgrey;
 }
