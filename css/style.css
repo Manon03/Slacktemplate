@@ -15,8 +15,6 @@ body{
 	color: white;
 	font-weight: bold;
 	font-size: 20px;
-}
-.bloc1 p{
 	text-align: center;
 }
 .DD{
@@ -35,7 +33,7 @@ body{
 .bloc2{
 	background-color: #4a184b;
 	color: white;
-	padding: 0px 0 0 20px;
+	padding: 0 0 0 20px;
 }
 .bloc2 ul{
 	list-style: none;
@@ -57,7 +55,11 @@ body{
 	padding-top: 25px;
 }
 .bloc3{
+	display: flex;
+	flex-direction: column;
 	padding: 0px 0px 0 20px;
+	height: 100%;
+	overflow: hidden;
 }
 .titre i{
 	margin-right: 5px;
@@ -88,4 +90,10 @@ input{
 .flex{
 	display: flex;
 	justify-content: space-between;
+}
+.message{
+	overflow: auto;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
